@@ -1,5 +1,8 @@
 def aOrAn(word):
-    if word[0] in 'aeiou':
-        return 'an'
+    if len(word) > 0:
+        if word[0] in 'aeiou':
+            return 'an'
+        else:
+            return 'a'
     else:
         return 'a'

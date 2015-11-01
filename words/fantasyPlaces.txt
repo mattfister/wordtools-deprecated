@@ -18,7 +18,6 @@ airport
 farm
 outhouse
 graveyard
-cemetary
 swamp
 bog
 hill
@@ -33,13 +32,11 @@ library
 pyramid
 bakery
 inn
-barber shop
 blacksmith
 bridge
 castle
 cathedral
 cave
-cemetary
 church
 coal mine
 dump
@@ -69,10 +66,9 @@ tower
 windmill
 winery
 woods
-zoo
 forest
 volcano
-glaciar
+glacier
 wasteland
 ruins
 camp
