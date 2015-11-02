@@ -5,7 +5,6 @@ granary
 hayloft
 pigpen
 cellar
-silo
 stable
 forum
 villa
@@ -14,7 +13,6 @@ school
 ampitheater
 capitol
 abbey
-airport
 farm
 outhouse
 graveyard
