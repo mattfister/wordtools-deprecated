@@ -25,6 +25,9 @@ def print_chapter_sentence(s):
     print(s + ' ')
     out_file.write(s+' ')
 
+def end_paragraph():
+    out_file.write('\n\n')
+
 def end_chapter():
     out_file.write('\n\n')
 
