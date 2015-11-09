@@ -19,8 +19,6 @@ In terms of underlying structure, the flattened concept data from conceptnet was
 
 The method in concept_net_searcher called get_concept_relations returns a list of all relations concept pairs for the provided concept.
 
-i.e.
-
     from wordtools import conceptnet_searcher
     print conceptnet_searcher.get_concept_relations('avocado')
 
