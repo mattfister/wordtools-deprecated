@@ -16,7 +16,6 @@ abbey
 farm
 outhouse
 graveyard
-swamp
 bog
 hill
 mountain
