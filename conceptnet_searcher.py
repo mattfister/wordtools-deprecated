@@ -14,14 +14,16 @@ def string_hash(concept):
 
     return sum % num_parts
 
-
 def get_concept_relations(concept):
     """For the provided concept, return a list of relations that the concept has"""
     concept = concept.replace(' ', '_').lower()
     filename = 'conceptnet_reduced_en_' + str(string_hash(concept)) + '.json'
     with open(os.path.join(os.path.dirname(__file__), os.path.join('conceptnetreduced'), filename), 'r') as f:
         m = json.load(f)
-        return m[concept]
+        try:
+            return m[concept]
+        except KeyError:
+            return []
     
 
 if __name__ == '__main__':
