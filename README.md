@@ -1,3 +1,5 @@
+# THIS PACKAGE IS DEPRECATED. It is replaced with [freezeword](https://github.com/mattfister/freezeword).
+
 # wordtools
 This package contains some utility classes for various linguistic tasks. There are some vocabulary lists in the words folder. These can be accessed via wordLists or names. It also contains a reduced version of conceptnet that can be searched based on JSON representation located in the conceptnetreduced folder.
 
